@@ -9,4 +9,8 @@ int main(){
     
     return 0;
 }
-
+***********************************************************
+OUTPUT
+enter value r:56.8
+area of circle:10130.393555
+circumference of circle:356.704010
