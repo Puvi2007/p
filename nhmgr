@@ -1,0 +1,13 @@
+# include <stdio.h>
+int main()
+{
+    int o,n;
+    printf("enter old edition: ");
+    scanf("%d",&o);
+    printf("enter new edition: ");
+    scanf("%d",&n);
+    printf("total number of book=%d",o+n);
+
+return 0;
+}
+**********************************************
