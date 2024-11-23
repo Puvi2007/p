@@ -1,0 +1,22 @@
+#include <stdio.h>
+void main(){
+    int sum;
+    sum=0;
+    for(int i=0;i<=10;i++)
+    if (i%2==0){
+        printf("%d\n",i);
+        sum=sum+i;}
+        printf("sum:%d",sum);
+    
+}
+*******************************************
+OUTPUT
+0
+2
+4
+6
+8
+10
+sum:30
+
+=== Code Exited With Errors ===
