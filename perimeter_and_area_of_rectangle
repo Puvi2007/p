@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int length,breath,area;
+    printf("enter a lenght: ");
+    scanf("%d",&length);
+    printf("enter a breath : ");
+    scanf("%d",&breath);
+  area=length*breath;
+  printf("area of rectangle:%d",(2*area));
+    return 0;
+}
+
+*************************************************
+OUTPUT
+enter a lenght: 35
+enter a breath : 65
+area of rectangle:4550
+
+=== Code Execution Successful ===
