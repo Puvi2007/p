@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main(){
+  char a;
+  printf("enter the colour a: ");
+  scanf("%c",&a);
+  
+      switch(a)
+      {
+      case 'R':
+      printf("stop");
+      break;
+      case 'Y':
+      printf("ready");
+      break;
+      case 'G':
+      printf("go");
+      break;
+      defult:
+      printf("invalid");
+      
+  }
+}
+************************************************
+OUTPUT
+enter the colour a: Y
+ready
+
+=== Code Execution Successful ===
