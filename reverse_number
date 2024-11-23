@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main()
+{
+    int num,reversed=0,remainder;
+    printf("enter an number: ");
+    scanf("%d",&num);
+    for(;num!=0;num/=10)
+    {
+        remainder=num%10;
+        reversed=reversed*10+remainder;
+    }
+    printf("Reversed number: %d\n",reversed);
+}
+**************************************************
+OUTPUT
+enter an number: 419
+Reversed number: 914
+
+=== Code Exited With Errors ===
