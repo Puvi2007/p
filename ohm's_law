@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main(){
+    float resistance,current,voltage;
+    printf("enter resistance: ");
+    scanf("%f",&resistance);
+    printf("enter current: ");
+    scanf("%f",&current);
+    voltage=current*resistance;
+    printf("%f\n",voltage);
+}
+***********************************************
+OUTPUT
+enter resistance: 2.3
+enter current: 1.3
+2.990000
+
+=== Code Exited With Errors ===
