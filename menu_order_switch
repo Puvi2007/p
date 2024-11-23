@@ -1,0 +1,26 @@
+#include <stdio.h>
+void main(){
+    int number;
+    printf("enter a number: ");
+    scanf("%d",&number);
+    switch(number)
+{
+    case 1:
+    printf("pizza");
+    break;
+    case 2:
+    printf("burger");
+    break;
+    case 3:
+    printf("pasta");
+    break;
+    defult:
+    printf("invalid choice");
+}
+}
+*******************************************
+OUTPUT
+enter a number: 3
+pasta
+
+=== Code Exited With Errors ===
