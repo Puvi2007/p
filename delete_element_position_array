@@ -1,0 +1,42 @@
+#include <stdio.h>
+void main()
+{
+    int n,i,pos;
+    printf("enter the size of an array; ");
+    scanf("%d",&n);
+    int arr[n];
+    printf("enter an array element ");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    printf("enter position to delete an element :  ");
+    scanf("%d",&pos);
+    if(pos<0||pos>n)
+    {
+        printf("invalid option");
+    }
+    else
+    {
+        for(i=pos-1;i<n;i++)
+        {
+            arr[i]=arr[i+1];
+        }
+        n--;
+        printf("array after deleting an element ");
+        for(i=0;i<n;i++)
+        {
+            printf("%d",arr[i]);
+        }
+        printf("\n");
+        }
+    }
+*************************************************************
+OUTPUT
+enter the size of an array; 5
+enter an array element 6 4 7 8 3
+enter position to delete an element :  1
+array after deleting an element 4783
+
+
+=== Code Exited With Errors ===
