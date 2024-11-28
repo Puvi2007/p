@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+    char str[]="MALAYALAM";
+    int i=0,j;
+    while(i<j)
+    {
+        int t=str[i];
+        str[i]=str[j];
+        str[j]=t;
+        i++;
+        j--;
+    }
+    printf("%s",str);
+
+*************************************
+OUTPUT
+MALAYALAM
+
+=== Code Exited With Errors ===
+*************************************
