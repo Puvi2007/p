@@ -1,0 +1,35 @@
+#include<stdio.h>
+struct student
+{
+    int id;
+    char name;
+};
+void main()
+{
+    struct student s[3];
+    for(int i=0;i<3;i++)
+{
+printf("Enter a id: ");
+scanf("%d",&s[i].id);
+printf("Enter a name: ");
+scanf("%s",&s[i].name);
+}
+for(int i=0;i<3;i++)
+{
+    printf("%d",s[i].id);
+    printf("%s",s[i].name);
+}
+}
+**********************************************
+OUTPUT 
+
+Enter a id: 24
+Enter a name: puvitha
+Enter a id: 25
+Enter a name: nandhini
+Enter a id: 26
+Enter a name: neha
+
+
+=== Code Exited With Errors ===
+************************************************
