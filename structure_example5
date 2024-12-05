@@ -1,0 +1,42 @@
+#include<stdio.h>
+struct student
+{
+    int id;
+    char name[20];
+    struct  mark
+    {
+        int cp;
+        int M;
+        int phy;
+    }m;
+};
+void main()
+{
+    struct student s;
+    printf("Enter a id: ");
+    scanf("%d",&s.id);
+    printf("Enter a name: ");
+    scanf("%s",&s.name);
+    printf("Enter cp mark: ");
+    scanf("%d",&s.m.cp);
+    printf("Enter maths mark: ");
+    scanf("%d",&s.m.M);
+    printf("Enter physics mark: ");
+    scanf("%d",&s.m.phy);
+    printf("%d",&s.id);
+    printf("%s",&s.name);
+    printf("%d",&s.m.cp);
+    printf("%d",&s.m.M);
+    printf("%d",&s.m.M);
+}
+************************************************
+OUTPUT 
+
+Enter a id: 24
+Enter a name: puvitha
+Enter cp mark: 55
+Enter maths mark: 58
+Enter physics mark: 59
+
+=== Code Exited With Errors ===
+************************************************
